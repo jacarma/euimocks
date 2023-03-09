@@ -1,0 +1,155 @@
+// Vitest Snapshot v1
+
+exports[`EuiButton > serialize with mocks 1`] = `
+<div
+  color="primary"
+  fill={true}
+  role="EuiButton"
+>
+  I'm a button
+</div>
+`;
+
+exports[`EuiButton > serialize without mocks 1`] = `
+<button
+  className="euiButton css-1u1unpk-euiButtonDisplay-m-defaultMinWidth-m-fill-primary"
+  disabled={false}
+  type="button"
+>
+  <span
+    className="css-1km4ln8-euiButtonDisplayContent"
+  >
+    <span
+      className="eui-textTruncate"
+    >
+      I'm a button
+    </span>
+  </span>
+</button>
+`;
+
+exports[`custom-container > serialize with mocks 1`] = `
+<div
+  role="EuiPanel"
+>
+  <div
+    role="EuiText"
+  >
+    <h1>
+      Custom Component
+    </h1>
+    <p>
+      Some text
+    </p>
+  </div>
+  <div
+    color="subdued"
+    role="EuiPanel"
+  >
+    <div
+      role="EuiPanel"
+    >
+      <div
+        role="EuiText"
+      >
+        <h1>
+          Custom Component
+        </h1>
+        <p>
+          Some text
+        </p>
+      </div>
+      <div
+        color="subdued"
+        role="EuiPanel"
+      >
+        Hello World
+      </div>
+      <div
+        color="primary"
+        fill={true}
+        role="EuiButton"
+      >
+        Button at the end
+      </div>
+    </div>
+  </div>
+  <div
+    color="primary"
+    fill={true}
+    role="EuiButton"
+  >
+    Button at the end
+  </div>
+</div>
+`;
+
+exports[`custom-container > serialize without mocks 1`] = `
+<div
+  className="euiPanel euiPanel--plain euiPanel--paddingMedium css-1yz5lbp-euiPanel-grow-m-m-plain-hasShadow"
+>
+  <div
+    className="euiText css-f0maoj-euiText-m"
+  >
+    <h1>
+      Custom Component
+    </h1>
+    <p>
+      Some text
+    </p>
+  </div>
+  <div
+    className="euiPanel euiPanel--subdued euiPanel--paddingMedium css-isico0-euiPanel-grow-m-m-subdued"
+  >
+    <div
+      className="euiPanel euiPanel--plain euiPanel--paddingMedium css-1yz5lbp-euiPanel-grow-m-m-plain-hasShadow"
+    >
+      <div
+        className="euiText css-f0maoj-euiText-m"
+      >
+        <h1>
+          Custom Component
+        </h1>
+        <p>
+          Some text
+        </p>
+      </div>
+      <div
+        className="euiPanel euiPanel--subdued euiPanel--paddingMedium css-isico0-euiPanel-grow-m-m-subdued"
+      >
+        Hello World
+      </div>
+      <button
+        className="euiButton css-1u1unpk-euiButtonDisplay-m-defaultMinWidth-m-fill-primary"
+        disabled={false}
+        type="button"
+      >
+        <span
+          className="css-1km4ln8-euiButtonDisplayContent"
+        >
+          <span
+            className="eui-textTruncate"
+          >
+            Button at the end
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+  <button
+    className="euiButton css-1u1unpk-euiButtonDisplay-m-defaultMinWidth-m-fill-primary"
+    disabled={false}
+    type="button"
+  >
+    <span
+      className="css-1km4ln8-euiButtonDisplayContent"
+    >
+      <span
+        className="eui-textTruncate"
+      >
+        Button at the end
+      </span>
+    </span>
+  </button>
+</div>
+`;
